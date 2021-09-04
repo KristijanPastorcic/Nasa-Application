@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_item_pager">
+
+        <ImageView
+            android:id="@+id/ivItemPager"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iv_item_pager_height"
+            tools:src="@drawable/flat_about"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/item_pager_mt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="5"
+                 android:text="@string/item_pager_date"
+                 android:textStyle="bold"
+                 android:textColor="@android:color/holo_red_dark"/>
+
+            <ImageView
+                android:id="@+id/ivRead"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:src="@drawable/red_flag"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDate"
+            tools:text="yyyy-MM-dd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"/>
+
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            tools:text="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explanation"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"/>
+
+
+
+        <TextView
+            android:id="@+id/tvExplanation"
+            tools:text="ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

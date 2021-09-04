@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_screen_padding">50dp</dimen>
+    <dimen name="splash_screen_iv_height">400dp</dimen>
+    <dimen name="splash_screen_text_size">50sp</dimen>
+    <dimen name="nav_width">150dp</dimen>
+    <dimen name="nav_height">100dp</dimen>
+    <dimen name="nav_mt">25dp</dimen>
+    <dimen name="nav_d_width">162dp</dimen>
+    <dimen name="nav_d_height">240dp</dimen>
+    <dimen name="padding_item">10dp</dimen>
+    <dimen name="iv_item_size">50dp</dimen>
+    <dimen name="tv_item_text_size">20sp</dimen>
+    <dimen name="iv_item_margin_left">20dp</dimen>
+    <dimen name="cv_corner_radius">9dp</dimen>
+    <dimen name="padding_item_pager">10dp</dimen>
+    <dimen name="iv_item_pager_height">300dp</dimen>
+    <dimen name="item_pager_mt">20dp</dimen>
+    <dimen name="padding_about">20dp</dimen>
+    <dimen name="tv_about_size">50sp</dimen>
+</resources>

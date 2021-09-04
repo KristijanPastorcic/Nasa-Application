@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Nasa Application</string>
+    <string name="please_wait">Please wait</string>
+    <string name="please_connect_to_the_internet">Please connect to the internet</string>
+    <string name="items">Items</string>
+    <string name="about">About</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="really">Really?</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Delete</string>
+    <string name="item_pager_date">Date</string>
+    <string name="title">Title</string>
+    <string name="explanation">Explanation</string>
+    <string name="application_made_by_algebra_students">Application made by Algebra students</string>
+</resources>
